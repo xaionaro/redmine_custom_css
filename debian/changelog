@@ -1,0 +1,5 @@
+redmine-plugin-custom-css (0.1.4) unstable; urgency=low
+
+  * Initial release (Closes: #770131).
+
+ -- Dmitry Yu Okunev <dyokunev@ut.mephi.ru>  Sun, 23 Nov 2014 17:14:48 +4000

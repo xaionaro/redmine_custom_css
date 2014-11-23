@@ -1,0 +1,6 @@
+app		/usr/share/redmine/plugins/redmine_custom_css
+assets		/usr/share/redmine/plugins/redmine_custom_css
+config		/usr/share/redmine/plugins/redmine_custom_css
+lib		/usr/share/redmine/plugins/redmine_custom_css
+test		/usr/share/redmine/plugins/redmine_custom_css
+init.rb		/usr/share/redmine/plugins/redmine_custom_css

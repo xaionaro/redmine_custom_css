@@ -1,0 +1,17 @@
+Source: redmine-plugin-custom-css
+Section: web
+Priority: optional
+Maintainer: Dmitry Yu Okunev <dyokunev@ut.mephi.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: https://github.com/martin-denizet/redmine_custom_css
+Vcs-Browser: https://github.com/martin-denizet/redmine_custom_css
+Vcs-Git: git://github.com/martin-denizet/redmine_custom_css.git
+
+Package: redmine-plugin-custom-css
+Architecture: all
+Depends: ${misc:Depends}, redmine (>= 2.1)
+Enhances: redmine
+Description: Redmine plugin to allow set custom styles (CSS)
+ This plugin allow set custom styles (CSS) via admins panel (admin ->
+ plugins -> redmine_custom_css).

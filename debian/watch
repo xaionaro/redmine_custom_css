@@ -1,0 +1,11 @@
+# uscan(1) configuration file.
+version=3
+
+# To get current orig.tag please use command
+#  "debian/rules get-orig-source"
+
+opts=\
+dversionmangle=s/\+git\d+//,\
+filenamemangle=s/.*\/v(\d[\d\.]+)/$1.tar.gz/ \
+ https://github.com/martin-denizet/redmine_custom_css/tags \
+  .*/archive/v?(\d[\d\.]+)\.tar\.gz
