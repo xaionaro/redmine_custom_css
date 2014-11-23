@@ -12,6 +12,6 @@ Package: redmine-plugin-custom-css
 Architecture: all
 Depends: ${misc:Depends}, redmine (>= 2.1)
 Enhances: redmine
-Description: Redmine plugin to allow set custom styles (CSS)
- This plugin allow set custom styles (CSS) via admins panel (admin ->
- plugins -> redmine_custom_css).
+Description: Redmine plugin to add custom CSS editable through web interface
+ This plugin allow admins to customize themes by editing additional CSS
+ in plugin's settings through Redmine web interface.
