@@ -8,13 +8,7 @@
 	dh $@
 
 override_dh_clean:
-	dh_clean debian/init.rb
-
-debian/init.rb:
-	perl -pE "s{(\sversion\s+'\K)[\d.]+'}{$(VER)'};" $(notdir $@) > $@
-
-override_dh_install: debian/init.rb
-	dh_install
+	dh_clean
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
